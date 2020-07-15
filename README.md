@@ -1,5 +1,4 @@
-Identity Server 4 Tenant Selection Application Example
-This is an example showing how to implement tenant selection in Identity Server 4.
+##### Identity Server 4 Tenant Selection Application Example ####
 
 You can follow the tutorial here :
 
@@ -12,7 +11,7 @@ https://youtu.be/s3XmS6udcJs
 To run this application follow the points belows :
 
 
-In Authorization Project
+## In Authorization Project ##
 
 Add ConnectionString in your appsettings.json file with "DefaultConnection" connection string to your database.
 
@@ -20,7 +19,6 @@ Make the required changes to the database seed in IdentityDbcontext, MasterDbCon
 
 Run the migrations for IdentityDbContext, PersistedGrantDbContext, MasterDbContext and ConfigurationDbContext and update database.
 
-
-In Angular Client
+## In Angular Client ##
 Make changes to the client config in app.module.ts as per your requirement.
 Finally run the application.
