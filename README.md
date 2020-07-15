@@ -21,4 +21,5 @@ Run the migrations for IdentityDbContext, PersistedGrantDbContext, MasterDbConte
 
 ## In Angular Client ##
 Make changes to the client config in app.module.ts as per your requirement.
+
 Finally run the application.
