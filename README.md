@@ -13,7 +13,7 @@ To run this application follow the points belows :
 
 ## In Authorization Project ##
 
-Add ConnectionString in your appsettings.json file with "DefaultConnection" connection string to your database.
+Add ConnectionString in your appsettings.json file with "DefaultConnection" connection to your database.
 
 Make the required changes to the database seed in IdentityDbcontext, MasterDbContext and ConfigurationDbContext. You need to give your client configuration as per your requirement.
 
